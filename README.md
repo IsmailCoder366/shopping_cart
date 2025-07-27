@@ -1,6 +1,6 @@
 # shopping_cart
 
-A new Flutter project.
+this is shopping cart app
 
 ## Getting Started
 
