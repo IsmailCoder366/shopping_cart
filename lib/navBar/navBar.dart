@@ -10,6 +10,15 @@ class Navbar extends StatefulWidget {
 class _NavbarState extends State<Navbar> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: ListView.builder(
+            itemCount: 20,
+          itemBuilder: (context, index) {
+            return ListTile(
+              leading: Icon(Icons.home),
+              title: Text('item'),
+            );
+          }),
+    );
   }
 }
